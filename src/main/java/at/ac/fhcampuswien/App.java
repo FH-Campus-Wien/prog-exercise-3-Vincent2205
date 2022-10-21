@@ -57,7 +57,7 @@ public class App
         return myArray;
     }
 
-    public static int randomNumber()
+    public static int randomNumberBetweenOneAndHundred()
     {
         int randomNum = (int)(Math.random() * 101);
         return randomNum;
